@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-export async function middleware() {
+export const middleware = async () => {
   console.log('middleware!!!!!!!!!!!!!')
   return NextResponse.next()
   // const res = NextResponse.next()
