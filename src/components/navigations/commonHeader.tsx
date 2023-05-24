@@ -10,6 +10,9 @@ export const CommonHeader = () => {
         <Link href="/inquiry" className="rounded bg-gray-700 px-3 py-2 text-white hover:bg-gray-500">
           Inquiry
         </Link>
+        <Link href="/dashboard" className="rounded bg-gray-700 px-3 py-2 text-white hover:bg-gray-500">
+          Dashboard
+        </Link>
       </nav>
     </header>
   )
